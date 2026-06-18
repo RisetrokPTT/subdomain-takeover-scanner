@@ -21,14 +21,14 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-`
+1.
     Create a file named subdomains.txt and add your subdomains (one per line):
-    
+    ```
     dev.example.com
     test.example.com
-`
+2.
     Run the script using Python:
-
+    ```
     python recon_takeover.py subdomains.txt
 
 The script will output the results directly to the terminal, highlighting any potential takeover vulnerabilities found.
