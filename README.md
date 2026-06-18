@@ -21,9 +21,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+`
     Create a file named subdomains.txt and add your subdomains (one per line):
+    
     dev.example.com
     test.example.com
+`
     Run the script using Python:
 
     python recon_takeover.py subdomains.txt
