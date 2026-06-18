@@ -1,7 +1,6 @@
 import requests
 import sys
 
-# Sygnatury wskazujące na możliwość przejęcia subdomeny
 TAKEOVER_SIGNATURES = {
     "GitHub Pages": "There isn't a GitHub Pages site here.",
     "AWS S3": "NoSuchBucket",
@@ -20,7 +19,6 @@ def check_subdomain(subdomain):
     return f"[+] {subdomain} is secure."
 
 if __name__ == "__main__":
-    # Użycie: python recon_takeover.py subdomains.txt
     if len(sys.argv) < 2:
         print("Użycie: python recon_takeover.py <plik_z_subdomenami.txt>")
         sys.exit(1)
