@@ -30,7 +30,6 @@ pip install -r requirements.txt
     Run the script using Python:
     ```
     python recon_takeover.py subdomains.txt
-
 The script will output the results directly to the terminal, highlighting any potential takeover vulnerabilities found.
 
 ## Contributing
