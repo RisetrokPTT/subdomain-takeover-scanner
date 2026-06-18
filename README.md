@@ -9,6 +9,6 @@ Lekkie narzędzie do automatycznego wykrywania błędnych konfiguracji DNS (dang
 
 ## Instalacja
 ```bash
-git clone [https://github.com/twoja-organizacja/sub-takeover-scanner.git](https://github.com/twoja-organizacja/sub-takeover-scanner.git)
-cd sub-takeover-scanner
+git clone https://github.com/RisetrokPTT/subdomain-takeover-scanner.git
+cd subdomain-takeover-scanner
 pip install -r requirements.txt
